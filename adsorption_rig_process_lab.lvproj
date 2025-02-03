@@ -97,7 +97,9 @@
 			<Item Name="main-dev.vi" Type="VI" URL="../adam5000_LLB/main-dev.vi"/>
 			<Item Name="main-top-level-example.vi" Type="VI" URL="../adam5000_LLB/main-top-level-example.vi"/>
 		</Item>
+		<Item Name="additional-csv-header.vi" Type="VI" URL="../sub-vi/additional-csv-header.vi"/>
 		<Item Name="adsorption_rig_main.vi" Type="VI" URL="../adsorption_rig_main.vi"/>
+		<Item Name="sample-rate-trigger.vi" Type="VI" URL="../sub-vi/sample-rate-trigger.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
