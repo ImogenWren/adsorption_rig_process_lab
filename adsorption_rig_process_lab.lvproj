@@ -98,12 +98,14 @@
 			<Item Name="main-top-level-example.vi" Type="VI" URL="../adam5000_LLB/main-top-level-example.vi"/>
 		</Item>
 		<Item Name="additional-csv-header.vi" Type="VI" URL="../sub-vi/additional-csv-header.vi"/>
+		<Item Name="adsorption-rig-logo-paint.ico" Type="Document" URL="../logo/adsorption-rig-logo-paint.ico"/>
 		<Item Name="adsorption_rig_main.vi" Type="VI" URL="../adsorption_rig_main.vi"/>
 		<Item Name="sample-rate-trigger.vi" Type="VI" URL="../sub-vi/sample-rate-trigger.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
@@ -114,6 +116,51 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="adsorption-rig-main" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{C663BFBF-8963-4149-8F63-03BADA743FCD}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7836173F-D908-488D-B313-AFE2880717E0}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{48E77728-3C06-4B3E-942E-FC5EF99B0A2F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">adsorption-rig-main</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C6B011E3-6AA2-4341-8F4F-D4C05FF4FF31}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">adsorption-rig.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/adsorption-rig.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/adsorption-rig-logo-paint.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{86483C01-9B4C-4FD8-846B-11C6759BE618}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/adsorption_rig_main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">adsorption-rig-main</Property>
+				<Property Name="TgtF_internalName" Type="Str">adsorption-rig-main</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_productName" Type="Str">adsorption-rig-main</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4A10AA31-0B40-47FC-BEA6-8DD6135C9C65}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">adsorption-rig.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
