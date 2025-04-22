@@ -133,7 +133,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C6B011E3-6AA2-4341-8F4F-D4C05FF4FF31}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">adsorption-rig.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/adsorption-rig.exe</Property>
@@ -145,7 +145,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/adsorption-rig-logo-paint.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{86483C01-9B4C-4FD8-846B-11C6759BE618}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{99450036-9DC6-43BF-B469-8DD8A2654CCB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/adsorption_rig_main.vi</Property>
