@@ -101,6 +101,7 @@
 		<Item Name="adsorption-rig-logo-paint.ico" Type="Document" URL="../logo/adsorption-rig-logo-paint.ico"/>
 		<Item Name="adsorption_rig_main.vi" Type="VI" URL="../adsorption_rig_main.vi"/>
 		<Item Name="sample-rate-trigger.vi" Type="VI" URL="../sub-vi/sample-rate-trigger.vi"/>
+		<Item Name="thermocouple-calibrate-average.vi" Type="VI" URL="../sub-vi/thermocouple-calibrate-average.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -133,7 +134,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C6B011E3-6AA2-4341-8F4F-D4C05FF4FF31}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">adsorption-rig.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/adsorption-rig.exe</Property>
