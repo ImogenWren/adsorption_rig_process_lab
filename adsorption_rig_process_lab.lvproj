@@ -99,8 +99,12 @@
 		</Item>
 		<Item Name="additional-csv-header.vi" Type="VI" URL="../sub-vi/additional-csv-header.vi"/>
 		<Item Name="adsorption-rig-logo-paint.ico" Type="Document" URL="../logo/adsorption-rig-logo-paint.ico"/>
+		<Item Name="adsorption_rig_main-automation.vi" Type="VI" URL="../adsorption_rig_main-automation.vi"/>
 		<Item Name="adsorption_rig_main.vi" Type="VI" URL="../adsorption_rig_main.vi"/>
 		<Item Name="sample-rate-trigger.vi" Type="VI" URL="../sub-vi/sample-rate-trigger.vi"/>
+		<Item Name="sequence-states.ctl" Type="VI" URL="../controls/sequence-states.ctl"/>
+		<Item Name="sequence-timings.ctl" Type="VI" URL="../controls/sequence-timings.ctl"/>
+		<Item Name="state-indicator.ctl" Type="VI" URL="../controls/state-indicator.ctl"/>
 		<Item Name="thermocouple-calibrate-average.vi" Type="VI" URL="../sub-vi/thermocouple-calibrate-average.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
