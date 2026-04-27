@@ -166,6 +166,50 @@
 				<Property Name="TgtF_targetfileName" Type="Str">adsorption-rig.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="adsorption_rig_main-automation" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{448449B3-BE32-4B38-8E71-5F065AB8BA89}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{913FE12A-C41E-4BE9-8881-C591E0B33A51}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9F69713B-CB40-499B-A772-E76FB6465B98}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">adsorption_rig_main-automation</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../adsorption_rig_main-automation</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{23AD453C-CF16-40A7-A614-9911ACFFEABD}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">V2-Adsorption-Automation.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../adsorption_rig_main-automation/V2-Adsorption-Automation.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../adsorption_rig_main-automation/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/adsorption-rig-logo-paint.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D0B6096F-942B-475C-B7F3-2C30C2BB0FDB}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/adsorption_rig_main-automation.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">adsorption_rig_main-automation</Property>
+				<Property Name="TgtF_internalName" Type="Str">adsorption_rig_main-automation</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_productName" Type="Str">adsorption_rig_main-automation</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9DD5938D-895D-4977-8FAE-A6E3E417E55C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">V2-Adsorption-Automation.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
